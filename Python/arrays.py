@@ -8,7 +8,7 @@ def swap(i, j, array):
 
     return array
 
-# Maximum No. of tickets problem
+# 'Maximum Number of tickets purchasable' problem
 # Average runtime: O(nlogn)
 def maximumTickets(prices, k):
   if len(prices) == 0 or k <= 0:
@@ -31,7 +31,7 @@ def maximumTickets(prices, k):
 
   return max_tickets
 
-# Minimum swaps problem
+# 'Minimum swaps' problem
 # Average runtime: O(nlogn)
 def minimumSwaps(arr):
   if len(arr) <= 1:
@@ -48,7 +48,7 @@ def minimumSwaps(arr):
 
   return count
 
-# Pangrams problem
+# 'Pangrams' problem
 # Average runtime: O(n)
 def isPangram(string):
   if len(string) < 26:

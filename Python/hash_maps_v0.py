@@ -1,6 +1,6 @@
 ### By: Khalil Kum ###
 
-# Pairs of socks problem
+# 'Pairs of socks' problem
 # Average runtime: O(n)
 def maxSockPairs(socks):
     if len(socks) <= 1:
@@ -20,7 +20,7 @@ def maxSockPairs(socks):
     return pairs
 
 
-# Longest Range problem
+# 'Longest Range' problem
 # Average runtime: O(nlogn)
 def longestRange(array):
     table = dict()
@@ -48,7 +48,7 @@ def longestRange(array):
         return [min, max]
 
 
-# Sherlock and anagrams problem
+# 'Sherlock and Anagrams' problem
 # Average runtime: O(n^3)
 def sherlockAndAnagrams(s):
     if len(s) <= 1:
