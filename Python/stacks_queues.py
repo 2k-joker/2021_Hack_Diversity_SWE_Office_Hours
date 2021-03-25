@@ -1,3 +1,5 @@
+### By: Khalil Kum ###
+
 #################### Helper objects/methods ##################
 class Stack(object):
   def __init__(self):
