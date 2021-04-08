@@ -1,3 +1,7 @@
+require './trip'
+require './queries_runner'
+require './processor'
+
 queries = [
   ['checkIn', [45,"cvs","boston"]],
   ['checkIn', [32,"walgreens","cambridge"]],

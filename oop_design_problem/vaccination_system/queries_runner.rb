@@ -10,12 +10,12 @@ module VaccinationSystem
         run_query(query_type, args)
       end
 
-      @output
+      output
     end
 
     private
 
-    attr_writer :output
+    attr_accessor :output
 
     def check_in_user(args)
       output << processor.check_in(args[0], args[1], args[2])
