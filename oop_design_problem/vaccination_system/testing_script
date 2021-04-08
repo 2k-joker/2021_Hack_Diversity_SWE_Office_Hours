@@ -1,6 +1,3 @@
-require './trip'
-require './vaccination_system'
-
 queries = [
   ['checkIn', [45,"cvs","boston"]],
   ['checkIn', [32,"walgreens","cambridge"]],
@@ -17,5 +14,7 @@ queries = [
   ['getCenterAverageTime', 'walgreens']
 ]
 
-system = VaccinationSystem.new(queries)
-print system.run_queries
+queries_runner = VaccinationSystem::QueriesRunner.new(queries)
+print queries_runner.run_queries
+
+=> [nil, nil, nil, nil, nil, nil, 15.0, 20.0, nil, 15.0, nil, 30.0, 21.0]
